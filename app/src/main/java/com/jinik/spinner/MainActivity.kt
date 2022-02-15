@@ -27,6 +27,7 @@ class MainActivity : AppCompatActivity() {
         // 4. 레이아웃 매니저 설정
         binding.recyclerView.layoutManager = LinearLayoutManager(this)
 
+        //추가한 소스
     }
 
     fun loadData() : MutableList<Memo>{
